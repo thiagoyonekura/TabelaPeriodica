@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: cyan;
+  background-color: darkslategrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: grey;
+  max-width: 1400px;
+  margin: 40px auto;
+}
+
+.tabela {
+  background-color: #d3d3d3;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.elemento {
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  font-size: small;
+  color: black;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.elemento:hover {
+  cursor: pointer;
+  -moz-transform: scale(1.5);
+  /*uma propriedade específica para navegadores baseados no motor Gecko, como o Mozilla Firefox.*/
+  -webkit-transform: scale(1.5);
+  /*uma propriedade semelhante, mas específica para navegadores baseados no motor WebKit, como o Google Chrome e o Safari.*/
+  transform: scale(1.5);
+}
+
+.numero-atomico {
+  text-align: right;
+}
+
+.massa-atomica {
+  display: none;
+}
+
+.separador {
+  height: 30px;
+  width: 100%;
+}
+
+.vazio {
+  border-color: rgba(0, 0, 0, 0);
+  cursor: inherit !important;
+}
+
+.outros-metais {
+  background-color: #a2c7d3;
+}
+
+.nao-metal {
+  background-color: #a1d344;
+}
+
+.gas-nobre {
+  background-color: #3d9ee3;
+}
+
+.metal-alcalino {
+  background-color: #f1b200;
+}
+
+.metal-alcalino-terroso {
+  background-color: #ffe0cc;
+}
+
+.metaloide {
+  background-color: #f2f2f2;
+}
+
+.halogenio {
+  background-color: #70cbeb;
+}
+
+.metal-de-transicao {
+  background-color: #eb8e8e;
+}
+
+.lantanideo {
+  background-color: #90e3e9;
+}
+
+.actinideo {
+  background-color: #dcadd6;
+}
+
+.simbolo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a.topo {
+  display: block;
+  width: 200px;
+  font-size: large;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.legenda {
+  display: relative;
+  width: 1100px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+ul li {
+  display: inline-block;
+}
+.quadrado {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.exemplo {
+  background-color: whitesmoke;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -270px 500px;
+}
+
+.numero-atomico-exemplo {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.simbolo-exemplo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nome-exemplo {
+  font-size: 1.8em;
+}
+
+table {
+  margin: 40px auto;
+  text-align: center;
+  min-width: 1250px;
+  border-collapse: separate;
+  /*usada para definir a borda separada de uma célula*/
+  font-size: 1em;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+  /*sombra ao redor de um elemento. */
+}
+
+caption {
+  text-align: center;
+  color: cyan;
+  background-color: darkslategrey;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  /*Espaço interno entre o conteúdo de um elemento e suas bordas. topo-base esquerda-direita*/
+}
