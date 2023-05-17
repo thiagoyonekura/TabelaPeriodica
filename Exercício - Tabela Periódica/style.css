@@ -21,7 +21,6 @@ a {
 
 .tabela {
   background-color: #d3d3d3;
-  display: flexbox;
   flex-wrap: wrap;
 }
 
